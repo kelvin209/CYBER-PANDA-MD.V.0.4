@@ -9,8 +9,8 @@ global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
+global.autoTyping = true;                //auto tying by default off.
+global.autoRecord = true;                //auto recording by default off.
 global.groupevent = false;                //This is the new variable for controlling group event handling.
 global.statusseen = false;                 //This is the new variable for controlling status seen.
 global.autoreadgc = false;
@@ -21,8 +21,8 @@ global.prefa = ["."];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["+94704274987", "+94704274987"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["+94704274987", "+94704274987"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.Owner = ["+94",[" +254113418469"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["+254113418469];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.ownertag = ["+94704274987"];
 global.OwnerName = "SACHITH";
 global.BotName = "SACHITH";
@@ -57,24 +57,24 @@ global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
 
 
 //
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
+global.ntilinkytvid = [false]
+global.ntilinkytch = [false]
+global.ntilinkig = [false]
+global.ntilinkfb = [false]
+global.ntilinktg = [false]
+global.ntilinktt = [false]
+global.ntilinktwt = [false]
+global.ntilinkall = [true]
+global.nticall = [false]
+global.ntwame = [false]
+global.nttoxic = [false]
+global.ntnsfw = [false]
+global.ntvirtex = [false]
+global.rkyt = [false]
+global.wlcm = [false]
+global.gcrevoke = [false]
+global.autorep = [false]
+global.ntilink = [true]
 
 
 //
